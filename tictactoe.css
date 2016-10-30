@@ -1,0 +1,45 @@
+.box{
+	border-radius: 10px;
+	width: 100px;
+	height: 100px;
+	background-color: #3498db;
+	border-style: solid;
+	border-color: black;
+	float: left;
+	-webkit-user-select:none;
+	    -ms-user-select:none;
+	        user-select:none;
+	-moz-user-select: none;
+
+	/*voor het centreren en groter maken van de X en de O*/
+	font-size: 30px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+
+.box[data-index='1']{
+	background-color: #e74c3c;
+}
+
+.box[data-index='2']{
+	background-color: #2ecc71;
+}
+
+.row {
+	height: 106px;
+}
+
+/*.row div {
+	display: inline-block;
+}
+*/
